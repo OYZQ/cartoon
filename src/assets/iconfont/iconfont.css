@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1564651767678'); /* IE9 */
+  src: url('iconfont.eot?t=1564651767678#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOwAAsAAAAACCgAAANjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqECINJATYCJAMMCwgABCAFhG0HPxsYBxHVm53Ifh7YblMa0a2hy81PBkPzFSjGBvc9iDCnzUqKI0N7CEgvgs3N+rb3RkQYpuQ8+F++IyljpinwAdAQgKDADg6XNr3A5lmWyxxbo4lRHFCgY47fwv8gD/hC/sPYBS1xMwTwSExGpGTpijWxGMxeAkjHdm2aYTMqTEO2YBGciokGmUoIq8apiyimBD8vH6jFgiKkMQdWbV2qJUVfn3tj9ND/0tBDwJ7OALBpoIGMgAFpXGmqi45CGdF4qsg0JzsYBDWV9///gKUJHOsfHigExMHMDABIixSKi2I7VCh4YzhXzX44iTMgsg5uc3VMzDYGG+FGSWuiBuB5/cbHrj172JwJsWrNGjqz++zYw+LMWTV3bp3x3uw4d+7UmTXUu3mz5sx6t2/XzuBu3apVWHXm+NnD4ty4I0VGNQP+5Ql3qsyZNWtmzIs3BziR4S6ROw/iDD2UK8qeI0nCiw/X9cavH7bB9yesG7o2SGprVoVcjU/jryptCr8s/9Wi4Vrr19eKXB+l5IYNJaOsv/Ksq/W9sIiSEqK6x41bZViTGtI1mq0kferGLp/qy5ft5uNH4+Zv+/hpu96mP32KFqJmoTkbakZZH6Vm7bzjK+lld+8uNxbdoyOFXs6P1AW7JFc1nk/IXKNWv9TkThHEPRn3RPWTWT+niJvic9ZgFRVXfV6U9Ff0kKJN9F/RrhR9lhfB6Gh1DrlROgRK2TrqL86UvZdRBJ+D8psC8H9tCYoFkfRu3fTv/g7Hoz360CRKwa/WNwDca3vtO3T8z9AtHSwKOrP/JbtjidG4plobheWwjKimIfZNKfE0MX8wFyA6j4dbYkFiECxnQ1CESQQaS0qkwWaEED45wcFSBDwyUGa6Twy6oxHjAukZBUCIyhZQRHIENFG5hDTYRxAiNp/AIapo8KgtMRb0SS32oEswGkEP9g+D21aytaLD7BeGNBtOcwPCDzkOXqjyMh/tcEWeYkg8Qy1CQLwt0ILtcJ432Hkb0Unei+xNUVDVK+VuW5RWJRiNoAf7h8FtK3mNRRe+/4UhzYYbiqq0P+Q4tA5VXnZAdqK1U9GtXBPPUIsQEG8LtMCAsxXaYK9uN6KTvB8Q2JsCVaKuonx5yfJ+mwBPmSfqhxItBieiYdc/+yb8J7NmS5qTUgA=') format('woff2'),
+  url('iconfont.woff?t=1564651767678') format('woff'),
+  url('iconfont.ttf?t=1564651767678') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1564651767678#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e704";
+}
+
+.icon-xueyuan-mulu:before {
+  content: "\e6c9";
+}
+
