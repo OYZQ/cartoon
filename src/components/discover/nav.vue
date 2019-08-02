@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="nav">
       <p class="left">
-        <router-link to="/discover" class="left">发现</router-link>
+        <router-link to="/discover">发现</router-link>
       </p>
       <p class="center">      
-        <router-link to="/bookshelf" class="center">书架</router-link>
+        <router-link to="/bookshelf">书架</router-link>
       </p>
       <p class="right">
-        <router-link to="/my" class="center">我的</router-link>
+        <router-link to="/my">我的</router-link>
       </p>
   </div>
 </template>
@@ -18,10 +18,13 @@ export default {};
 
 <style lang="scss">
 .nav {
+  z-index: 100;
+  position: fixed;
   display: flex;
-  position: relative;
-  top: 20px;
-  padding-top: 20px;
+  // position: relative;
+  bottom: 0px;
+  background-color: #fff;
+  width: 100%;
   p {
     text-align: center;
     padding: 15px;
@@ -35,7 +38,8 @@ export default {};
   }
   .center {
     flex: 3;
-    border-top: solid 0.5px #999;
+    border-top: solid 1px #333;
+    box-sizing: border-box;
   }
   .right {
     flex: 1;

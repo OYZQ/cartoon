@@ -1,30 +1,20 @@
 <template lang="html">
   <div>
-      <Swiper></Swiper>
-      <Search></Search>
-      <Sort></Sort>
-      <Recommend></Recommend>
-      <Nav></Nav>
+    <Top></Top>
+    <Content></Content>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import Swiper from './swiper.vue'
-import Nav from './nav.vue'
-import Search from './search.vue'
-import Sort from './sort.vue'
-import Recommend from './recommend.vue'
-  export default {
-      components: {
-          Swiper,
-          Nav,
-          Search,
-          Sort,
-          Recommend
-      }
+import Top from "./top.vue";
+import Content from './content.vue'
+export default {
+  components: {
+    Top,
+    Content
   }
+};
 </script>
 
 <style lang="scss">
-
 </style>
