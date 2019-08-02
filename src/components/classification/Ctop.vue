@@ -1,0 +1,37 @@
+<template lang="html">
+  <div class="Ctop">
+      <router-link to="/my"><i class="iconfont icon-fanhui"></i></router-link>
+      <span>分类</span>
+      <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
+  </div>
+</template>
+
+<script type="text/ecmascript-6">
+export default {};
+</script>
+
+<style lang="scss">
+.Ctop {
+  border: 1px solid #ccc;
+  height: 55px;
+  span {
+    line-height: 55px;
+    font-size: 28px;
+    padding: 0 29%;
+    font-weight: bold;
+    color: rgb(0,0,83);
+  }
+  .icon-fanhui {
+    font-size: 30px !important;
+    float: left;
+    line-height: 55px;
+    padding: 0 10px;
+  }
+  .icon-tubiaozhizuomoban {
+    font-size: 35px !important;
+    float: right;
+    line-height: 55px;
+    padding: 0 10px;
+  }
+}
+</style>

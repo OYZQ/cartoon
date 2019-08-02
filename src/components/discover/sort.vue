@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="sort">
       <p class="left">
-          分类
+          <router-link to="/classification">分类</router-link>
       </p>
-      <p class="center">    
-          排行  
+      <p class="center">  
+          <router-link to="/rankList">排行 </router-link>
       </p>
       <p class="right">
-          追更
+          <router-link to="/classification">追更 </router-link>
       </p>
   </div>
 </template>
@@ -26,6 +26,9 @@ export default {};
   p {
     text-align: center;
     padding: 15px;
+    a {
+      color: #101010;
+    }
   }
   .left {
     flex: 1;
