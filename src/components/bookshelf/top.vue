@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="top">
-      <router-link to="/my"><i class="iconfont icon-fanhui"></i></router-link>
+      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
       <span>我的书架</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>

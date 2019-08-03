@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="Ctop">
-      <router-link to="/my"><i class="iconfont icon-fanhui"></i></router-link>
-      <span>分类</span>
+      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+      <span class="span">分类</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -14,12 +14,15 @@ export default {};
 .Ctop {
   border: 1px solid #ccc;
   height: 55px;
-  span {
+  .span {
     line-height: 55px;
     font-size: 28px;
     padding: 0 29%;
     font-weight: bold;
     color: rgb(0,0,83);
+  }
+  .iconfont{
+        color: #71b0df;
   }
   .icon-fanhui {
     font-size: 30px !important;

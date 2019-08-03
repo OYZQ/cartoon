@@ -11,8 +11,10 @@
       <div class="content">
         <ul>
           <li class="li"  v-for="item in items" :key="item.title">
+            <router-link to="/details">
             <img :src="item.img" alt="item.title">
             <p>{{item.title}}</p>
+            </router-link>
           </li>
         </ul>
       </div>

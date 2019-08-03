@@ -7,7 +7,7 @@
           <router-link to="/rankList">排行 </router-link>
       </p>
       <p class="right">
-          <router-link to="/classification">追更 </router-link>
+          <router-link to="/update">追更 </router-link>
       </p>
   </div>
 </template>

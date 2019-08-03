@@ -1,11 +1,11 @@
 <template lang="html">
   <div class="class">
-      <div class="li">日漫</div>
-      <div class="li">欧美</div>
-      <div class="li">完结</div>
-      <div class="li">轻小说</div>
-      <div class="li">男生</div>
-      <div class="li">女生</div>
+      <router-link to="/ClassDetails" class="li">日漫</router-link>
+      <router-link to="/ClassDetails" class="li">欧美</router-link>
+      <router-link to="/ClassDetails" class="li">完结</router-link>
+      <router-link to="/ClassDetails" class="li">轻小说</router-link>
+      <router-link to="/ClassDetails" class="li">男生</router-link>
+      <router-link to="/ClassDetails" class="li">女生</router-link>
   </div>
 </template>
 

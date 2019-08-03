@@ -1,8 +1,10 @@
 <template lang="html">
   <div class="photos">
-      <div class="item" v-for="item of items" :key="item.name">
-        <img :src="item.imgurl">
-        <p>{{item.name}}</p>
+      <div class="item" v-for="item of items" :key="item.name" >
+          <router-link to="/ClassDetails" class="li">
+            <img :src="item.imgurl">
+            <p>{{item.name}}</p>
+          </router-link>
       </div>
   </div>
 </template>

@@ -1,6 +1,7 @@
 <template lang="html">
-  <div class="my-top">
-      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+  <div class="Cltop">
+      <router-link to="/classification"><i class="iconfont icon-fanhui"></i></router-link>
+      <span>分类详情</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -10,8 +11,19 @@ export default {};
 </script>
 
 <style lang="scss">
-.my-top {
+.Cltop {
+  border: 1px solid #ccc;
   height: 55px;
+  span {
+    line-height: 55px;
+    font-size: 28px;
+    padding: 0 22%;
+    font-weight: bold;
+    color: rgb(0, 0, 83);
+  }
+ .iconfont {
+    color: #71b0df;
+  }
   .icon-fanhui {
     font-size: 30px !important;
     float: left;

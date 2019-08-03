@@ -1,6 +1,7 @@
 <template lang="html">
-  <div class="my-top">
+  <div class="Rtop">
       <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+      <span>追更时间轴</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -10,8 +11,16 @@ export default {};
 </script>
 
 <style lang="scss">
-.my-top {
+.Rtop {
+  border: 1px solid #ccc;
   height: 55px;
+  span {
+    line-height: 55px;
+    font-size: 28px;
+    padding: 0 19.1%;
+    font-weight: bold;
+    color: rgb(0,0,83);
+  }
   .icon-fanhui {
     font-size: 30px !important;
     float: left;
