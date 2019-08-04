@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Stop">
-      <router-link to="/details"><i class="iconfont icon-fanhui"></i></router-link>
+      <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
       <span>搜索</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>

@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Cltop">
-      <router-link to="/classification"><i class="iconfont icon-fanhui"></i></router-link>
+      <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
       <span>分类详情</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
@@ -12,6 +12,7 @@ export default {};
 
 <style lang="scss">
 .Cltop {
+  background-color: #fff;
   border: 1px solid #ccc;
   height: 55px;
   span {

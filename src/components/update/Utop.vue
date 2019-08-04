@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Rtop">
-      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+      <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
       <span>追更时间轴</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>

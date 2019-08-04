@@ -2,17 +2,14 @@
   <div>
       <Dtop :title="item.title"></Dtop>
       <Introduce :img="item.img" :name="item.name" :author="item.author" :label="item.label" :hot="item.hot" :data="item.data"></Introduce>
-      <Catalog :news="item.news" :one="item.one" :two="item.two" :three="item.three" :four="item.four" :five="item.five" :six="
-      item.six" :seven="item.seven" :eight="item.eight" :nine="item.nine"></Catalog>
-      <Recom :list="list"></Recom>
+      <Catalog :news="item.news" :one="item.one" :two="item.two" :three="item.three" :four="item.four" :five="item.five" :six="item.six" :seven="item.seven" :eight="item.eight" :nine="item.nine" :list="list"></Catalog>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import Dtop from "./Dtop.vue";
 import Introduce from "./introduce.vue";
-import Catalog from './Catalog.vue'
-import Recom from './recom.vue'
+import Catalog from "./Catalog.vue";
 export default {
   data() {
     return {
@@ -24,15 +21,15 @@ export default {
         hot: "33038℃",
         data: "151话",
         news: "2019-6-21 周五 更新到第40话",
-        one:'40',
-        two:'39',
-        three:'38',
-        four:'37',
-        five:'36',
-        six:'35',
-        seven:'34',
-        eight:'33',
-        nine:'32',
+        one: "40",
+        two: "39",
+        three: "38",
+        four: "37",
+        five: "36",
+        six: "35",
+        seven: "34",
+        eight: "33",
+        nine: "32",
         img: require("../../assets/img/woman/10.jpg")
       },
       list: [
@@ -58,7 +55,6 @@ export default {
     Dtop,
     Introduce,
     Catalog,
-    Recom,
   }
 };
 </script>

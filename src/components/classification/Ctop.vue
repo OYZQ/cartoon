@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Ctop">
-      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+      <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
       <span class="span">分类</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>

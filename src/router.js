@@ -9,6 +9,8 @@ import Update from './components/update/index.vue'
 import Details from './components/details/idnex.vue'
 import Search from './components/search/index.vue'
 import ClassDetails from './components/classification/classDetails/index.vue'
+import Detail from './components/details/detail/index.vue'
+import Recom from './components/details/recom.vue'
 
 Vue.use(Router)
 
@@ -50,14 +52,26 @@ export default new Router({
     },
     {
       path: '/details',
+      redirect: '/details/recom',
       name: 'details',
-      component: Details
+      component: Details,
+      children: [
+        {
+          path: 'detail',
+          component: Detail
+        },
+        {
+          path:'recom',
+          component: Recom
+        }
+      ]
     },
     {
       path: '/search',
       name: 'search',
       component: Search
-    }, {
+    },
+    {
       path: '/classDetails',
       name: 'ClassDetails',
       component: ClassDetails

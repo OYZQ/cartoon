@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="my-top">
-      <router-link to="/discover"><i class="iconfont icon-fanhui"></i></router-link>
+      <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
