@@ -4,16 +4,19 @@
           <div>
             <router-link to="/details/detail">详情</router-link>
           </div>
-          <div>目录</div>
-          <div>评论</div>
+          <div>
+            <router-link to="/details/cata">目录</router-link>
+          </div>
+          <div>
+            <router-link to="/details/discuss">评论</router-link>
+          </div>
       </div>
       <router-view></router-view>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-export default {
-};
+export default {};
 </script>
 
 <style lang="scss">
@@ -30,6 +33,9 @@ export default {
     border: 2px solid #ccc;
     div {
       width: 33.33%;
+      a {
+        color: rgba(16, 16, 16, 1);
+      }
     }
     div:nth-child(2) {
       border-left: 2px solid #ccc;

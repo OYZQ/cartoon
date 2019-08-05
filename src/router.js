@@ -10,6 +10,8 @@ import Details from './components/details/idnex.vue'
 import Search from './components/search/index.vue'
 import ClassDetails from './components/classification/classDetails/index.vue'
 import Detail from './components/details/detail/index.vue'
+import Cata from './components/details/cata/index.vue'
+import Discuss from './components/details/discuss/index.vue'
 import Recom from './components/details/recom.vue'
 
 Vue.use(Router)
@@ -63,6 +65,14 @@ export default new Router({
         {
           path:'recom',
           component: Recom
+        },
+        {
+          path:'cata',
+          component: Cata
+        },
+        {
+          path:'discuss',
+          component: Discuss
         }
       ]
     },

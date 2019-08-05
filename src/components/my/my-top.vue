@@ -12,6 +12,9 @@ export default {};
 <style lang="scss">
 .my-top {
   height: 55px;
+  .iconfont {
+    color: #71b0df;
+  }
   .icon-fanhui {
     font-size: 30px !important;
     float: left;

@@ -39,6 +39,9 @@ export default {};
     border: 1px solid rgba(187, 187, 187, 1);
     margin: 0 auto;
     margin-top: 30px;
+    .iconfont {
+      color: #71b0df;
+    }
     span {
       line-height: 58px;
       font-size: 14px;
