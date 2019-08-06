@@ -1,12 +1,15 @@
 <template lang="html">
+<div>
   <div class="Rclass">
-      <div class="li">人气榜</div>
-      <div class="li">黑马榜</div>
-      <div class="li">男生榜</div>
-      <div class="li">女生榜</div>
-      <div class="li">免费榜</div>
-      <div class="li">吐槽榜</div>
+      <router-link to='/rankList/popularity' class="li">人气榜</router-link>
+      <router-link to='/rankList/dark' class="li">黑马榜</router-link>
+      <router-link to='/rankList/man' class="li">男生榜</router-link>
+      <router-link to='/rankList/woman' class="li">女生榜</router-link>
+      <router-link to='/rankList/free' class="li">免费榜</router-link>
+      <router-link to='/rankList/complaints' class="li">吐槽榜</router-link>
   </div>
+  <router-view></router-view>
+</div>
 </template>
 
 <script type="text/ecmascript-6">

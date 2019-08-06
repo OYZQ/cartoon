@@ -1,17 +1,14 @@
 <template lang="html">
   <div>
-      <Utop></Utop>
-      <Data></Data>
+      <Test></Test>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import Utop from './Utop.vue'
-import Data from './data.vue'
+import Test from './test.vue'
   export default {
       components:{
-          Utop,
-          Data,
+          Test,
       }
   }
 </script>

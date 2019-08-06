@@ -1,7 +1,24 @@
 <template lang="html">
+<div>
   <div class="datas">
-      <p>一<span>|</span>二<span>|</span>三<span>|</span>四<span>|</span>五<span>|</span>六<span>|</span>日</p>
+      <p>
+        <router-link to='/update/one'>一</router-link>
+        <span>|</span>
+        <router-link to="/update/two">二</router-link>
+        <span>|</span>
+        <router-link to="/update/three">三</router-link>
+        <span>|</span>
+        <router-link to="/update/four">四</router-link>
+        <span>|</span>
+        <router-link to="/update/five">五</router-link>
+        <span>|</span>
+        <router-link to="/update/six">六</router-link>
+        <span>|</span>
+        <router-link to="/update/seven">日</router-link>
+      </p>
   </div>
+  <router-view></router-view>
+</div>
 </template>
 
 <script type="text/ecmascript-6">
@@ -20,6 +37,9 @@ export default {};
   font-family: Arial;
   border: 1px solid rgba(187, 187, 187, 1);
   p {
+    a {
+      color: rgba(16, 16, 16, 1);
+    }
     line-height: 50px;
     text-align: center;
     span {

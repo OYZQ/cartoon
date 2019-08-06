@@ -21,37 +21,37 @@ export default {
     return {
       items: [
         {
-          img: require("../../assets/img/rank/1.jpg"),
+          img: require("../../../assets/img/woman/1.jpg"),
           id: "1",
           name: "海贼王",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/2.jpg"),
+          img: require("../../../assets/img/woman/2.jpg"),
           id: "2",
           name: "贤者之书",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/3.jpg"),
+          img: require("../../../assets/img/woman/3.jpg"),
           id: "3",
           name: "一拳超人",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/4.jpg"),
+          img: require("../../../assets/img/woman/4.jpg"),
           id: "4",
           name: "妖神记",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/5.jpg"),
+          img: require("../../../assets/img/woman/5.jpg"),
           id: "5",
           name: "陆地沉默记",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/6.jpg"),
+          img: require("../../../assets/img/woman/6.jpg"),
           id: "6",
           name: "魔武学院",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"

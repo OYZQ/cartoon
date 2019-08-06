@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Ucontent">
-      <div class="jieshao" v-for="item of items" :key="item.id">
+      <router-link to="/details" class="jieshao" v-for="item of items" :key="item.id">
           <div class="left">
               <img :src="item.img">
           </div>
@@ -9,7 +9,7 @@
               <p class="content">更新到{{item.data}}话</p>
               <p class="content">{{item.content}}</p>
           </div>
-      </div>
+      </router-link>
   </div>
 </template>
 

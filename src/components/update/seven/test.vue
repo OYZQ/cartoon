@@ -1,14 +1,12 @@
 <template lang="html">
-  <div class="Rcontent">
+  <div class="Ucontent">
       <router-link to="/details" class="jieshao" v-for="item of items" :key="item.id">
           <div class="left">
               <img :src="item.img">
           </div>
-          <div class="center">
-              <div class="id">{{item.id}}</div>
-          </div>
           <div class="right">
               <p class="name">{{item.name}}</p>
+              <p class="content">更新到{{item.data}}话</p>
               <p class="content">{{item.content}}</p>
           </div>
       </router-link>
@@ -21,38 +19,44 @@ export default {
     return {
       items: [
         {
-          img: require("../../assets/img/rank/1.jpg"),
+          img: require("../../../assets/img/woman/7.jpg"),
           id: "1",
+          data: "77",
           name: "海贼王",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/2.jpg"),
+          img: require("../../../assets/img/woman/8.jpg"),
           id: "2",
+          data: "66",
           name: "贤者之书",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/3.jpg"),
+          img: require("../../../assets/img/woman/9.jpg"),
           id: "3",
+          data: "194",
           name: "一拳超人",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/4.jpg"),
+          img: require("../../../assets/img/woman/10.jpg"),
           id: "4",
+          data: "53",
           name: "妖神记",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/5.jpg"),
+          img: require("../../../assets/img/woman/11.jpg"),
           id: "5",
+          data: "99",
           name: "陆地沉默记",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         },
         {
-          img: require("../../assets/img/rank/6.jpg"),
+          img: require("../../../assets/img/woman/12.jpg"),
           id: "6",
+          data: "108",
           name: "魔武学院",
           content: "相传22年前，在一个童话般的世界里，有一群蓝精灵。"
         }
@@ -63,62 +67,31 @@ export default {
 </script>
 
 <style lang="scss">
-.Rcontent {
-  margin-top: 15px;
-  .jieshao:nth-child(1) {
-    .center {
-      .id {
-        background-color: rgb(254, 218, 0);
-      }
-    }
-  }
-  .jieshao:nth-child(2) {
-    .center {
-      .id {
-        background-color: rgb(254, 175, 0);
-      }
-    }
-  }
-  .jieshao:nth-child(3) {
-    .center {
-      .id {
-        background-color: rgb(254, 143, 0);
-      }
-    }
-  }
+.Ucontent {
+  margin-top: 10px;
   .jieshao {
-    margin: 5px 0;
+    background-color: #fff;
+    margin: 10px 0;
     display: flex;
-    height: 63px;
+    height: 103px;
     .left {
-      width: 30%;
+      width: 20%;
       overflow: hidden;
+      margin: 5px;
       img {
         width: 100%;
         height: auto;
         background-size: cover;
       }
     }
-    .center {
-      width: 12%;
-      .id {
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background-color: #ccc;
-        color: #555;
-        font-size: 16px;
-        text-align: center;
-        line-height: 25px;
-        margin: 7px auto;
-      }
-    }
     .right {
-      width: 58%;
-      padding-top: 10px;
+      width: 80%;
+      box-sizing: border-box;
+      padding-top: 20px;
+      padding-left: 10px;
       .name {
-        font-size: 16px;
-        color: #101010;
+        font-size: 18px;
+        color: #555;
         font-weight: bold;
       }
       .content {

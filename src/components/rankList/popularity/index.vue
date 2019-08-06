@@ -1,17 +1,14 @@
 <template lang="html">
   <div>
-      <Cltop></Cltop>
-      <Content></Content>
+      <Test></Test>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import Cltop from "./Cltop.vue";
-import Content from "./content.vue";
+import Test from "./test";
 export default {
   components: {
-    Cltop,
-    Content,
+    Test
   }
 };
 </script>
