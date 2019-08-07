@@ -1,20 +1,5 @@
 <template lang="html">
-  <div class="catalogs">
-      <div class="news">{{item.news}}</div>
-      <div class="log">
-          <router-link to="/details">{{item.one}}</router-link>
-          <router-link to="/details">{{item.two}}</router-link>
-          <router-link to="/details">{{item.three}}</router-link>
-          <router-link to="/details">{{item.four}}</router-link>
-          <router-link to="/details">{{item.five}}</router-link>
-          <router-link to="/details">{{item.six}}</router-link>
-          <router-link to="/details">{{item.seven}}</router-link>
-          <router-link to="/details">{{item.eight}}</router-link>
-          <router-link to="/details">{{item.nine}}</router-link>
-      </div>
-      <div class="more">
-          <router-link to="/details">陛下，点击查看更多内容</router-link>
-      </div>
+  <div class="rem">
     <div class="recom">
       <div class="fonts">大家都在看哟</div>
       <div class="lists">
@@ -38,25 +23,6 @@
 export default {
   data() {
     return {
-      item: {
-        title: "小抄写员之死",
-        name: "阴阳界的新娘",
-        author: "云朵屋动漫",
-        label: " 生活 恋爱 ",
-        hot: "33038℃",
-        data: "151话",
-        news: "2019-6-21 周五 更新到第40话",
-        one: "40",
-        two: "39",
-        three: "38",
-        four: "37",
-        five: "36",
-        six: "35",
-        seven: "34",
-        eight: "33",
-        nine: "32",
-        img: require("../../assets/img/woman/10.jpg")
-      },
       list: [
         {
           img: require("../../assets/img/woman/11.jpg"),
@@ -80,49 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
-.catalogs {
-  background-color: #fff;
-  .news {
-    height: 48px;
-    line-height: 48px;
-    color: rgba(16, 16, 16, 1);
-    font-size: 15px;
-    text-align: left;
-    font-family: Arial;
-    border: 1px solid rgba(187, 187, 187, 1);
-    padding-left: 15px;
-  }
-  .log {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    a {
-      color: #101010;
-      width: 28%;
-      text-align: center;
-      border: 1px solid #ccc;
-      height: 54px;
-      line-height: 54px;
-      margin-top: 15px;
-      font-size: 20px;
-      border-radius: 5px;
-    }
-  }
-  .more {
-    height: 54px;
-    line-height: 54px;
-    border-radius: 5px;
-    color: rgba(16, 16, 16, 1);
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial;
-    border: 1px solid rgba(187, 187, 187, 1);
-    margin: 15px 10px;
-    a {
-      color: #101010;
-    }
-  }
+.rem {
   .recom {
     background-color: #fff;
     .fonts {
