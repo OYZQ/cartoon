@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="top">
+  <div class="Mtop">
       <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
-      <span>我的书架</span>
+      <span class="span">账号管理</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -11,13 +11,16 @@ export default {};
 </script>
 
 <style lang="scss">
-.top {
+.Mtop {
   border: 1px solid #ccc;
   height: 55px;
-  span {
+  background-color: #fff;
+  .span {
     line-height: 55px;
-    color: #101010;
-    font-size: 28px;
+    font-size: 26px;
+    color: rgb#101010;
+    text-align: left;
+    margin-left: 11px;
   }
   .iconfont {
     color: #71b0df;

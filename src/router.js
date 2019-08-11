@@ -34,6 +34,11 @@ import Hot from './components/classification/classDetails/hot/index.vue'
 import New from './components/classification/classDetails/new/index.vue'
 import History from './components//bookshelf/History/index.vue'
 import Bookrack from './components//bookshelf/bookrack/index.vue'
+import Read from './components/read/index.vue'
+import Managment from './components/management/index.vue'
+import Message from './components//message/index.vue'
+import Wallet from './components//wallet/index.vue'
+import Payment from './components/payment/index.vue'
 
 Vue.use(Router)
 
@@ -43,10 +48,35 @@ export default new Router({
       redirect: '/discover'
     },
     {
+      path: '/managment',
+      name: 'managment',
+      component: Managment
+    },
+    {
+      path: '/payment',
+      name: 'payment',
+      component: Payment
+    },
+    {
+      path: '/wallet',
+      name: 'wallet',
+      component: Wallet
+    },
+    {
+      path: '/message',
+      name: 'message',
+      component: Message
+    },
+    {
+      path: '/read',
+      name: 'read',
+      component: Read
+    },
+    {
       path: '/bookshelf',
       name: 'BookShelf',
       component: BookShelf,
-      redirect:'/bookshelf/bookrack',
+      redirect: '/bookshelf/bookrack',
       children: [{
           path: 'history',
           name: 'history',

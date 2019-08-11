@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="top">
+  <div class="wtop">
       <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
-      <span>我的书架</span>
+      <span class="span">我的钱包</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -11,16 +11,19 @@ export default {};
 </script>
 
 <style lang="scss">
-.top {
+.wtop {
+  background-color: #fff;
   border: 1px solid #ccc;
   height: 55px;
-  span {
+  .span {
     line-height: 55px;
-    color: #101010;
     font-size: 28px;
+    padding: 0 22%;
+    font-weight: bold;
+    color: rgb(0,0,83);
   }
-  .iconfont {
-    color: #71b0df;
+  .iconfont{
+        color: #71b0df;
   }
   .icon-fanhui {
     font-size: 30px !important;

@@ -2,15 +2,15 @@
   <div class="catalogs">
       <div class="news">{{item.news}}</div>
       <div class="log">
-          <router-link to="/details">{{item.one}}</router-link>
-          <router-link to="/details">{{item.two}}</router-link>
-          <router-link to="/details">{{item.three}}</router-link>
-          <router-link to="/details">{{item.four}}</router-link>
-          <router-link to="/details">{{item.five}}</router-link>
-          <router-link to="/details">{{item.six}}</router-link>
-          <router-link to="/details">{{item.seven}}</router-link>
-          <router-link to="/details">{{item.eight}}</router-link>
-          <router-link to="/details">{{item.nine}}</router-link>
+          <router-link to="/read">{{item.one}}</router-link>
+          <router-link to="/read">{{item.two}}</router-link>
+          <router-link to="/read">{{item.three}}</router-link>
+          <router-link to="/read">{{item.four}}</router-link>
+          <router-link to="/read">{{item.five}}</router-link>
+          <router-link to="/read">{{item.six}}</router-link>
+          <router-link to="/read">{{item.seven}}</router-link>
+          <router-link to="/read">{{item.eight}}</router-link>
+          <router-link to="/read">{{item.nine}}</router-link>
       </div>
       <div class="more">
           <router-link to="/details">陛下，点击查看更多内容</router-link>

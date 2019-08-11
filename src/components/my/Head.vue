@@ -1,9 +1,11 @@
 <template lang="html">
   <div class="head">
+    <router-link to="/message">
       <div class="photo">
-          <img :src="photo">
+        <img :src="photo">
       </div>
       <div class="grade">{{grade}}</div>
+    </router-link>
   </div>
 </template>
 

@@ -4,7 +4,7 @@
         <p>{{content}}<span>升序</span></p>
       </div>
       <div class="num">
-        <div class="item"  v-for="item of list" :key="item.num">{{item.num}}</div>
+        <router-link to="/read" class="item"  v-for="item of list" :key="item.num">{{item.num}}</router-link >
       </div>
   </div>
 </template>

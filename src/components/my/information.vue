@@ -1,16 +1,22 @@
 <template lang="html">
   <div class="inform">
       <div class="list">
+        <router-link to="/managment">
           <span>账号管理</span>
-          <router-link to="/my"><i class="iconfont icon-qianjin"></i></router-link>
+          <i class="iconfont icon-qianjin"></i>
+        </router-link>
       </div>
       <div class="list">
+        <router-link to="/bookshelf">
           <span>我的书架</span>
-          <router-link to="/my"><i class="iconfont icon-qianjin"></i></router-link>
+          <i class="iconfont icon-qianjin"></i>
+        </router-link>
       </div>
       <div class="list">
-          <span>我的钱包</span>
-          <router-link to="/my"><i class="iconfont icon-qianjin"></i></router-link>
+          <router-link to="/wallet">
+            <span>我的钱包</span>
+            <i class="iconfont icon-qianjin"></i>
+          </router-link>
       </div>
       <div class="list">
           <span>我的消息</span>
@@ -46,6 +52,7 @@ export default {};
       line-height: 58px;
       font-size: 14px;
       padding-left: 30px;
+      color: rgba(16, 16, 16, 1);
     }
     i {
       float: right;

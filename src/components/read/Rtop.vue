@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="top">
+  <div class="Ctops">
       <div @click="$router.go(-1)"><i class="iconfont icon-fanhui"></i></div>
-      <span>我的书架</span>
+      <span class="span">第 1 话 12/1</span>
       <router-link to="/discover"><i class="iconfont icon-tubiaozhizuomoban"></i></router-link>
   </div>
 </template>
@@ -11,13 +11,18 @@ export default {};
 </script>
 
 <style lang="scss">
-.top {
+.Ctops {
+  background-color: #fff;
   border: 1px solid #ccc;
   height: 55px;
-  span {
+  .span {
     line-height: 55px;
-    color: #101010;
     font-size: 28px;
+    font-weight: bold;
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial;
   }
   .iconfont {
     color: #71b0df;
