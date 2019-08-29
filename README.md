@@ -10,4 +10,3 @@ npm install
 npm run serve
 ```
 
-Compiles and min
